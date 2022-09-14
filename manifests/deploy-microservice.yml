@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
     labels:
-        app: -microservice
+        app: passive-command-microservice
         stack: frontend
         source: demo
     name: passive-command-microservice
